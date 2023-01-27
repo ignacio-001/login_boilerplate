@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginForm from "./Login/LoginForm";
 import SignupPage from "./Signup/SignupForm";
 import { AuthContextProvider } from "./../Context/AuthContext";
-import Nav from './Nav';
+import Nav from '../components/Nav';
 
 const LandingPage = () => {
   return (
